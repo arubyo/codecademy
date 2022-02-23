@@ -1,0 +1,64 @@
+.bg-nav {
+  background-image: url("./img/pattern.webp");
+  min-height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  margin: 10px;
+  width: auto;
+}
+
+.img-fluid {
+display: flex;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: none;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 6px 6px;
+  text-decoration: none;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  font-famiy: Helvetica;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#brushes {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  font-famiy: Helvetica;
+  background-color: mediumspringgreen;
+}
+
+#frames {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  font-famiy: Helvetica;
+  background-color: lightcoral;
+}
+
+#paints {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  font-famiy: Helvetica;
+  background-color: skyblue;
+}
